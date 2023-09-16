@@ -38,7 +38,7 @@ An HTML and CSS Product preview card.
 
 ### What I learned
 
-I learned how
+Practicing HTML/CSS basics.
 
 ### Continued development
 
