@@ -15,39 +15,40 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
-An HTML and CSS landing page for Skilled e-learning.
+An HTML and CSS Product preview card.
 
 ### Screenshot
 
-![](./assets/img/screenshot.png)
+![](./assets/img/screenshot.jpeg)
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-using-html-and-sass-EDUTOytJGX
-- Live Site URL: https://skilled-rho.vercel.app/
-- GitHub Repo: https://github.com/ZounMedia/skilled
+- Solution URL: https://www.frontendmentor.io/solutions/an-html-and-css-product-preview-card-component-trH83OQJyL
+- Live Site URL: https://product-preview-card-component-sage-three.vercel.app/
+- GitHub Repo: https://github.com/ZounMedia/product-preview-card-component
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- SCSS
+- CSS
 - Flexbox
 - Mobile-first workflow
 
 ### What I learned
 
-I learned a lot about positioning images and mobile-first development
+I learned how
 
 ### Continued development
 
-I used SASS for this project and it made styling much easier to manage.
+I used regular CSS since this compent was not that complex, but I think I should have used SASS for a better development workflow.
 
 ### Useful resources
 
-- https://sass-lang.com/ - SASS documentation
+- https://fonts.google.com/specimen/Montserrat - Google Fonts Montserrat url
+- https://fonts.google.com/specimen/Fraunces? - Google Fonts Fraunces url
 
 ## Author
 
-- Frontend Mentor - https://www.frontendmentor.io/profile/@rzounlom
+- Frontend Mentor - https://github.com/ZounMedia
