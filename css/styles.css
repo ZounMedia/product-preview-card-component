@@ -16,6 +16,7 @@
   /* Neutral */
   --Pure-White: #fff;
   --Deep-Aquamarine: #3d8168;
+  --Deep-Aquamarine-hover: #1a4032;
 }
 
 /* Set defualt styles for body elements */
@@ -100,10 +101,6 @@ body {
   flex-direction: column;
 }
 
-.product-card .product-description .p {
-  flex-direction: column;
-}
-
 .product-card .product-description .footing {
   flex-direction: column;
   justify-content: space-between;
@@ -137,12 +134,52 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--Deep-Aquamarine);
+  background-color: var(--Deep-Aquamarine);
   border-radius: 8px;
   color: white;
   font-weight: 700;
+  transition: all 0.35s ease-in-out;
+}
+
+.product-card .product-description .footing button:hover {
+  cursor: pointer;
+  background-color: var(--Deep-Aquamarine-hover);
 }
 
 .product-card .product-description .footing button img {
   margin-right: 8px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .product-card .product-description {
+    padding: 7% 8%;
+  }
+
+  .product-card .product-description .heading h2 {
+    font-size: 24px;
+  }
+
+  .product-card .product-description .heading h1 {
+    font-size: 48px;
+    line-height: 42px;
+  }
+
+  .product-card .product-description .description {
+    font-size: 20px;
+    width: 90%;
+    line-height: 30px;
+  }
+
+  .product-card .product-description .footing .price .cur-price {
+    font-size: 45px;
+  }
+
+  .product-card .product-description .footing .price .prev-price {
+    font-size: 20px;
+  }
+
+  .product-card .product-description .footing button {
+    height: 60px;
+  }
 }
