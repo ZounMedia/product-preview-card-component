@@ -51,4 +51,4 @@ I used regular CSS since this compent was not that complex, but I think I should
 
 ## Author
 
-- Frontend Mentor - https://github.com/ZounMedia
+- Frontend Mentor - https://www.frontendmentor.io/profile/@rzounlom
